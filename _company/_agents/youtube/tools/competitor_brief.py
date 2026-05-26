@@ -57,8 +57,10 @@ def main():
         sys.exit(1)
     top_n = int(cfg.get("TOP_N_PER_CHANNEL", 5))
     lookback = int(cfg.get("LOOKBACK_DAYS", 30))
-    ollama_url = (acct.get("OLLAMA_URL") or "http://127.0.0.1:11434").rstrip("/")
-    model = acct.get("MODEL") or ""
+    # v2.89.158 — MLX 서버 기본값. 8080(MLX)·1234(LM Studio)·11434(Ollama) 모두 지원.
+    ollama_url = (acct.get("OLLAMA_URL") or "http://127.0.0.1:8080/v1").rstrip("/")
+    model = acct.get("MODEL") or "mlx-community/Qwen3-32B-4bit"
+    is_openai_compat = ('1234' in ollama_url) or ('8080' in ollama_url) or ('/v1' in ollama_url)
 
     try:
         from googleapiclient.discovery import build
@@ -102,15 +104,21 @@ def main():
 
     if not model:
         try:
-            r = requests.get(f"{ollama_url}/api/tags", timeout=5)
-            r.raise_for_status()
-            models = [m["name"] for m in r.json().get("models", [])]
+            if is_openai_compat:
+                base = ollama_url if ollama_url.endswith('/v1') else ollama_url + '/v1'
+                r = requests.get(f"{base}/models", timeout=5)
+                r.raise_for_status()
+                models = [m["id"] for m in r.json().get("data", [])]
+            else:
+                r = requests.get(f"{ollama_url}/api/tags", timeout=5)
+                r.raise_for_status()
+                models = [m["name"] for m in r.json().get("models", [])]
             if not models:
                 print("❌ 로컬 LLM에 모델이 없어요.")
                 sys.exit(1)
             model = models[0]
         except Exception as e:
-            print(f"❌ LLM 연결 실패: {e}")
+            print(f"❌ LLM 연결 실패 ({ollama_url}): {e}")
             sys.exit(1)
 
     prompt = f"""당신은 유튜브 알고리즘 전략가입니다. 아래는 경쟁 채널들의 최근 {lookback}일간 상위 영상 데이터입니다.
@@ -132,13 +140,25 @@ def main():
 ## 4) 한 줄 요약
 - 다음 영상의 핵심 컨셉을 한 문장으로
 """
-    print("🧠 [LLM 분석 중...]")
+    engine = 'MLX' if '8080' in ollama_url else ('LM Studio' if '1234' in ollama_url else ('Ollama' if not is_openai_compat else 'OpenAI 호환'))
+    print(f"🧠 [LLM 분석 중... 엔진: {engine}]")
     try:
-        r = requests.post(f"{ollama_url}/api/generate",
-                          json={"model": model, "prompt": prompt, "stream": False},
-                          timeout=240)
-        r.raise_for_status()
-        brief = r.json().get("response", "").strip()
+        if is_openai_compat:
+            base = ollama_url if ollama_url.endswith('/v1') else ollama_url + '/v1'
+            r = requests.post(f"{base}/chat/completions",
+                              json={"model": model,
+                                    "messages": [{"role": "user", "content": prompt}],
+                                    "stream": False,
+                                    "max_tokens": 2048},
+                              timeout=240)
+            r.raise_for_status()
+            brief = r.json().get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+        else:
+            r = requests.post(f"{ollama_url}/api/generate",
+                              json={"model": model, "prompt": prompt, "stream": False},
+                              timeout=240)
+            r.raise_for_status()
+            brief = r.json().get("response", "").strip()
     except Exception as e:
         print(f"❌ LLM 실패: {e}")
         sys.exit(1)
