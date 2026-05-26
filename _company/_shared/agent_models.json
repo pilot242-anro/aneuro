@@ -1,0 +1,8 @@
+{
+  "ceo": "qwen3:32b",
+  "youtube": "qwen3:32b",
+  "developer": "qwen2.5-coder:32b",
+  "business": "qwen3:32b",
+  "writer": "qwen3:32b",
+  "researcher": "qwen3:32b"
+}
