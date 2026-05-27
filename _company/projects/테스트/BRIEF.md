@@ -10,7 +10,10 @@
 - 아까 진행하던 거 계속 만들어 봐 타로 사이트
 
 ## 다음에 할 것
-(CEO가 계획 수립 예정)
+1. 기초 골격 구축 (Layout & Design System)
+2. 타로 로직 구현 (Deck & Shuffle)
+3. 비주얼/애니메이션 (Framer Motion)
+4. 해석 엔진 (Data & Result)
 
 ## 대표 확인 필요
 없음
