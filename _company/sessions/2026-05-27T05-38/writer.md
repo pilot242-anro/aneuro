@@ -1,0 +1,48 @@
+# ✍️ Writer — 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, 중복 제거 및 의미 텍스트 간결화 후 /_data/tarot/11-13.json에 저장하세요.
+
+✍️ Writer: 작업 시작합니다.
+
+<create_file path="/Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json">
+[
+  {
+    "number": 11,
+    "name": "Justice",
+    "name_ko": "정의",
+    "meaning": {
+      "general": "공정함, 진실, 인과응보, 균형 잡힌 판단",
+      "positive": "객관적인 결정, 올바른 선택, 계약의 성립",
+      "negative": "편파적인 태도, 법적 분쟁, 책임 회피",
+      "advice": "감정에 치우치지 말고 객관적인 사실에 근거하여 결정하세요."
+    }
+  },
+  {
+    "number": 12,
+    "name": "The Hanged Man",
+    "name_ko": "매달린 사람",
+    "meaning": {
+      "general": "희생, 정지, 새로운 관점, 인내",
+      "positive": "자기 성찰, 깨달음, 뜻밖의 기회",
+      "negative": "무기력, 진전 없음, 억울한 상황",
+      "advice": "지금은 움직일 때가 아닙니다. 관점을 바꾸고 때를 기다리며 인내하세요."
+    }
+  },
+  {
+    "number": 13,
+    "name": "Death",
+    "name_ko": "죽음",
+    "meaning": {
+      "general": "종결, 변화, 새로운 시작, 이별",
+      "positive": "과거와의 결별, 새로운 단계로의 진입",
+      "negative": "상실감, 갑작스러운 변화, 회복의 어려움",
+      "advice": "끝은 새로운 시작을 의미합니다. 낡은 것을 과감히 버리고 변화를 받아들이세요."
+    }
+  }
+]
+</create_file>
+
+<edit_file path="/Users/kks/Desktop/kks/_company/_shared/roadmap.md"><find>- 코다리 — 11-13번 메이저 타로 데이터 작성 시작</find><replace>- Writer — 1
+
+---
+## 📁 파일 액션 결과
+
+✅ 생성: ~/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json
