@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 27. 오후 6:44:42_
+_업데이트: 2026. 5. 27. 오후 6:56:29_
 
 ## 🤖 에이전트 최근 활동
 ### 🎨 Designer
@@ -19,9 +19,9 @@ _업데이트: 2026. 5. 27. 오후 6:44:42_
 - [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '11-13번 메이저 타로 데이터 작성 시작' 항목이 아직 완료되지 않았으므로, '🔄 진행 → 산출물 sessions/2026-05-27T08-46/secretary.md
 - [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽고, 11-13번 메이저 타로 데이터 파일이 /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json에 존재하는지 확인한 후, roadmap.md에서 '11-13번 메이저 타로 데이터 작성 시작' 항목을 ✅ 완료로 변경하세요. → 산출물 sessions/2026-05-27T09-40/secretary.md
 ### ✍️ Writer
-- [2026-05-27] /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json 파일로 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '✅ 완료'로 상태 변경 → 산출물 sessions/2026-05-27T05-52/writer.md
 - [2026-05-27] /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json 파일로 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '11-13번 메이저 타로카드 데이터 작성' 항목이 '✅ 완료'로 변경되도록 지시 → 산출물 sessions/2026-05-27T06-00/writer.md
 - [2026-05-27] /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_14-21.json 파일 생성: 14-21번 메이저 타로카드의 카드 번호, 이름, 한국어 의미, 이미지 URL(예: /images/taro14.png)로 구성된 JSON 배열 작성. /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '14-21.json 데이터 작성' 항목을 '🔄 진행 중'으로 변경 → 산출물 sessions/2026-05-27T06-28/writer.
+- [2026-05-27] /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_14-21.json 파일에 메이저 타로카드 14-21번 한국어 의미 텍스트를 JSON 형식으로 작성해. 각 카드는 '이름', '의미(한국어)', '이미지 설명(한국어)' 속성을 포함해. 디자이너에게 이미지 설명 공유해 디자인 요소를 맞춰서 작업할 수 있도록 해. → 산출물 sessions/2026-05-27T09-50/writer.md
 ### 🔍 Researcher
 - [2026-05-26] Graph RAG 섹션에 있는 직접 매칭 문서(🎯)와 1-hop 연결 문서(🔗)를 분석해 각 항목의 주제/용도/연결 관계를 2~3줄씩 요약한 목록으로 정리 → 산출물 sessions/2026-05-26T14-03/researcher.md
 - [2026-05-26] Graph RAG 섹션의 직접 매칭 문서(🎯)와 1-hop 연결 문서(🔗)를 분석해 각 항목의 주제/용도/연결 관계를 2~3줄씩 요약한 목록으로 정리하세요. → 산출물 sessions/2026-05-26T14-09/researcher.md
