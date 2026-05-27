@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 27. 오후 6:02:28_
+_업데이트: 2026. 5. 27. 오후 6:44:42_
 
 ## 🤖 에이전트 최근 활동
 ### 🎨 Designer
@@ -15,9 +15,9 @@ _업데이트: 2026. 5. 27. 오후 6:02:28_
 - [2026-05-26] 카페24 이전 비용과 전략을 수립하여 보고 → 산출물 sessions/2026-05-26T11-13/business.md
 - [2026-05-26] 사용자가 '별개 작업'임을 명시함에 따라, 각 프로젝트(타로카드 vs 아느로 홈페이지)의 비즈니스 목표와 리소스 배분 계획을 독립적으로 재수립하세요. → 산출물 sessions/2026-05-26T19-55/business.md
 ### 📱 영숙
-- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '🔄 진행 중' 항목을 '📋 예정'으로 복귀하고, /Users/kks/Desktop/kks/_company/_shared/goals.md를 기반으로 다음 단계를 roadmap에 추가하세요. → 산출물 sessions/2026-05-27T06-20/secretary.md
 - [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '14-21번 메이저 타로 데이터 작성 시작' 항 → 산출물 sessions/2026-05-27T08-05/secretary.md
 - [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '11-13번 메이저 타로 데이터 작성 시작' 항목이 아직 완료되지 않았으므로, '🔄 진행 → 산출물 sessions/2026-05-27T08-46/secretary.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽고, 11-13번 메이저 타로 데이터 파일이 /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json에 존재하는지 확인한 후, roadmap.md에서 '11-13번 메이저 타로 데이터 작성 시작' 항목을 ✅ 완료로 변경하세요. → 산출물 sessions/2026-05-27T09-40/secretary.md
 ### ✍️ Writer
 - [2026-05-27] /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json 파일로 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '✅ 완료'로 상태 변경 → 산출물 sessions/2026-05-27T05-52/writer.md
 - [2026-05-27] /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json 파일로 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '11-13번 메이저 타로카드 데이터 작성' 항목이 '✅ 완료'로 변경되도록 지시 → 산출물 sessions/2026-05-27T06-00/writer.md
