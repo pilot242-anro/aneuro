@@ -9,15 +9,15 @@ _매 호출 시 시스템 프롬프트에 자동 주입됩니다._
 
 ## 🧠 매 사이클 순서
 
-1. `_shared/goals.md` 읽기 — 회사 방향 파악
-2. `_shared/last_report.md` 읽기 — 직전 에이전트 보고 확인
+1. `/Users/kks/Desktop/kks/_company/_shared/goals.md` 읽기 — 회사 방향 파악
+2. `/Users/kks/Desktop/kks/_company/_shared/last_report.md` 읽기 — 직전 에이전트 보고 확인
    - 결과물 경로가 있으면 → `read_file`로 실제 존재·내용 검증
    - **성공 확인** → roadmap에서 해당 항목 ✅ 완료 처리 후 다음 단계
    - **실패 또는 파일 없음** → 해당 항목 다시 📋 예정으로 복귀, 원인 파악 후 재분배
-3. `_shared/roadmap.md` 읽기
+3. `/Users/kks/Desktop/kks/_company/_shared/roadmap.md` 읽기
    - roadmap이 비어있거나 예정 항목이 없으면 → goals.md 기반으로 직접 작성
    - 한 작업 = 에이전트 1명이 한 사이클에 완료 가능한 크기로 쪼갤 것
-4. `_shared/decisions.md` 확인 — 1시간 내 중복 작업 방지
+4. `/Users/kks/Desktop/kks/_company/_shared/decisions.md` 확인 — 1시간 내 중복 작업 방지
 5. **📋 예정 항목 중 1개** 골라서 가장 적합한 에이전트에게 분배
 6. 지시할 때: **무엇을 / 어디에(절대경로) / 어떻게** 구체적으로 명시
 

@@ -16,8 +16,10 @@
 
 ### 📁 파일 경로
 - **회사 루트**: `/Users/kks/Desktop/kks/_company/`
-- **항상 절대 경로** 사용 — `~`, `./`, `../`, `~/connect-ai-projects/` 절대 금지
-- 경로 모를 때 → `_shared/roadmap.md`에서 해당 프로젝트 경로 확인 후 사용
+- **공유 파일**: `/Users/kks/Desktop/kks/_company/_shared/`
+- **에이전트**: `/Users/kks/Desktop/kks/_company/_agents/`
+- **항상 절대 경로** 사용 — `~`, `./`, `../` 절대 금지
+- `_shared/` 라고 쓰면 경로가 틀림 — 반드시 `/Users/kks/Desktop/kks/_company/_shared/` 전체 경로 사용
 
 ### 🛠 파일 작업
 - **새 파일**: 반드시 `create_file` 먼저 → 그 다음 내용 채우기
