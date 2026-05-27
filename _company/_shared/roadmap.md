@@ -27,7 +27,8 @@ _에이전트가 작업 끝낼 때마다 자동 업데이트._
 - 코드 통합 및 첫 작동 데모 만들기
 
 ### 📋 예정
-- 78장 타로카드 의미 데이터(한국어) 정리
+- ✍️ Writer — 타로 메이저 0~10번 데이터 작성 (바보/마법사/여사제/여황제/황제/교황/연인/전차/힘/은둔자/운명의수레바퀴) → `/Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_00-10.json` 신규 create_file
+- ✍️ Writer — 타로 메이저 11~21번 데이터 작성 (정의/매달린사람/죽음/절제/악마/탑/별/달/태양/심판/세계) → `/Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-21.json` 신규 create_file
 - 사주 계산 로직 구현 (생년월일·생시 → 사주 8자)
 - 카드 뽑기 → 해석 → 결과 페이지 플로우
 - 메인 랜딩 페이지 완성
