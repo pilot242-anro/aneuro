@@ -20,7 +20,7 @@ _매 호출 시 시스템 프롬프트에 자동 주입됩니다._
 ### 2단계: 현황 파악
 - `/Users/kks/Desktop/kks/_company/_shared/roadmap.md` 읽기
   - 🔄 진행 중 항목 = 이전 사이클 잔여물 → 1단계 검증 후 미처리 건 모두 📋 예정으로 복귀
-  - 📋 예정이 3개 미만 → goals.md 보고 다음 단계 추가
+  - 📋 예정이 비어있으면 → 임의로 채우지 마라. 5단계로 이동
 - `/Users/kks/Desktop/kks/_company/_shared/goals.md` 읽기 (방향 확인)
 - `/Users/kks/Desktop/kks/_company/_shared/decisions.md` 확인 (1시간 내 중복 방지)
 

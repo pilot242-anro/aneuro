@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 27. 오후 2:48:41_
+_업데이트: 2026. 5. 27. 오후 2:57:01_
 
 ## 🤖 에이전트 최근 활동
 ### 🎨 Designer
@@ -19,9 +19,9 @@ _업데이트: 2026. 5. 27. 오후 2:48:41_
 - [2026-05-26] 현재 진행 중인 '타로카드 프로젝트'와 방금 확인된 'anero-homepage' 프로젝트를 완전히 분리하여 관리 목록에 등록하고, 각 프로젝트의 작업 맥락이 섞이지 않도록 브리핑을 준비하세요. → 산출물 sessions/2026-05-26T19-55/secretary.md
 - [2026-05-26] 현재 진행 중인 '타로카드 프로젝트'와 '화장품 쇼핑몰(카페24)'을 완전히 분리하여 기록하고, 혼선이 발생하지 않도록 프로젝트 격리 규칙을 업데이트하여 브리핑하세요. → 산출물 sessions/2026-05-26T19-55/secretary.md
 ### ✍️ Writer
-- [2026-05-27] 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json 파일로 저장. 의미 텍스트는 간결하고 사용자 친화적으로, 키워드는 배열로, 설명은 '일반', '사랑', '직장', '지도'로 구분. 작업 완료 후 roadmap.md에서 '11-13번 메이저 타로 데이터 작성' 항목을 '✅ 완료'로 변경. → 산출물 sessions/2026-05-27T05-19/writer.md
 - [2026-05-27] 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json 파일에 저장하라. → 산출물 sessions/2026-05-27T05-27/writer.md
 - [2026-05-27] 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, 중복 제거 및 의미 텍스트 간결화 후 /_data/tarot/11-13.json에 저장하세요. → 산출물 sessions/2026-05-27T05-38/writer.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json 파일로 11-13번 메이저 타로카드 데이터를 JSON 형식으로 작성하고, /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '✅ 완료'로 상태 변경 → 산출물 sessions/2026-05-27T05-52/writer.md
 ### 🔍 Researcher
 - [2026-05-26] Graph RAG 섹션에 있는 직접 매칭 문서(🎯)와 1-hop 연결 문서(🔗)를 분석해 각 항목의 주제/용도/연결 관계를 2~3줄씩 요약한 목록으로 정리 → 산출물 sessions/2026-05-26T14-03/researcher.md
 - [2026-05-26] Graph RAG 섹션의 직접 매칭 문서(🎯)와 1-hop 연결 문서(🔗)를 분석해 각 항목의 주제/용도/연결 관계를 2~3줄씩 요약한 목록으로 정리하세요. → 산출물 sessions/2026-05-26T14-09/researcher.md
