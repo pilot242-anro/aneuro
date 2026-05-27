@@ -6,5 +6,7 @@
 ### 🔄 진행 중
 ### 📋 예정
 - Writer — 11-13번 메이저 타로 데이터 작성
-- Writer — 14-21.json 메이저 타로 데이터 작성
-- Writer — 22-30.json 데이터 작성
+- Writer — 14-16번 메이저 타로 데이터 작성 (타로_major_14-16.json)
+- Writer — 17-19번 메이저 타로 데이터 작성 (tarot_major_17-19.json)
+- Writer — 20-21번 메이저 타로 데이터 작성 (tarot_major_20-21.json)
+- Writer — 22-30번 마이너 타로 데이터 작성 (tarot_minor_22-30.json)
