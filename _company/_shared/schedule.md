@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 27. 오후 2:40:08_
+_업데이트: 2026. 5. 27. 오후 2:48:41_
 
 ## 🤖 에이전트 최근 활동
 ### 🎨 Designer
@@ -7,9 +7,9 @@ _업데이트: 2026. 5. 27. 오후 2:40:08_
 - [2026-05-26] 타로카드 의미 문서 001-010.md에 맞춰 디자인 프로토타입 개발 시작. Cyber-Mysticism 테마 적용 및 3D 회전 효과 시각화 스펙 정리 → 산출물 sessions/2026-05-26T22-44/designer.md
 - [2026-05-26] 디지털 타로카드 인터랙션 프로토타입의 시각적 스펙을 확정하세요. Cyber-Mysticism 테마 기반으로 001-010.md 데이터를 렌더링할 수 있는 CSS/Canvas 속성값(색상, 광원, 입자 밀도 등)을 구체적으로 정의하고, 개발자에게 전달할 디자인 가이드 문서를 작성해라. → 산출물 sessions/2026-05-26T22-51/designer.md
 ### 💻 코다리
-- [2026-05-27] writer가 작성한 JSON 데이터를 `/Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-21.json`에 저장하고, 데이터 구조 검증 후 데이터베이스에 저장할 수 있도록 파서를 구현하세요. → 산출물 sessions/2026-05-27T04-42/developer.md
 - [2026-05-27] writer가 작성한 JSON 데이터를 `/Users/kks/Desktop/kks/my-mobile-app/src/data/tarot_major_11-21.json`에 저장하고, 데이터 구조 검증 후 데이터베이스에 저장할 수 있도록 파서를 구현하세요. → 산출물 sessions/2026-05-27T04-54/developer.md
 - [2026-05-27] `/Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-21.json` 파일을 로드해 데이터 구조 검증 후 데이터베이스에 저장할 수 있도록 데이터 파서를 구현하세요. → 산출물 sessions/2026-05-27T05-02/developer.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json 파일이 존재하고 올바르게 작성되었는지 확인하고, roadmap.md에서 '코다리 — 11-13번 메이저 타로 데이터 작성 시작' 항목을 ✅ 완료로 변경하세요. → 자격증명 부족으로 차단됨
 ### 💼 현빈
 - [2026-05-26] 카페24 이전 전략 수립을 위한 비용/서비스 비교 분석 및 실행 계획을 제안해주세요 → 산출물 sessions/2026-05-26T10-37/business.md
 - [2026-05-26] 카페24 이전 비용과 전략을 수립하여 보고 → 산출물 sessions/2026-05-26T11-13/business.md
