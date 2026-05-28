@@ -1,6 +1,6 @@
 # 📋 작업 브리프
 
-**원 명령:** [자율 사이클 — 2026-05-28] 너는 CEO다. 작업 완료 후 자동 호출된다.
+**원 명령:** [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
 
 ⚠️ 반드시 이 순서로:
 1. /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽기
@@ -23,7 +23,10 @@
 - 작업 크다 싶으면 더 작게 쪼개서 지시
 
 ## 요약
-지난 작업을 검증하고, roadmap을 업데이트합니다.
+사용자 명령에 따라 작업 완료 후 자동 호출
 
 ## 분배
-- **📱 영숙**: /Users/kks/Desktop/kks/_company/_shared/last_report.md 파일을 읽고, 최근 작업 검증 후, /Users/kks/Desktop/kks/_company/_shared/roadmap.md을 업데이트합니다.
+- **📱 영숙**: last_report.md 읽기
+- **📱 영숙**: roadmap.md 읽기
+- **📱 영숙**: goals.md 읽기
+- **📱 영숙**: decisions.md 확인

@@ -1,12 +1,9 @@
-# 🗺️ 로드맵 — 타로_사주 웹사이트 및 앱
-
-## ✅ 완료
-
-## 🔄 진행 중
+# 🗺️ 로드맵
 
 ## 📋 예정
+- researcher: 타로카드 78장 정방향/역방향 의미 수집 → _shared/tarot_data.md
+- writer: 수집된 의미를 JSON으로 정리 → /projects/tarot/data/cards.json
+- designer: 카드 UI 스타일 가이드 작성 → _shared/tarot_ui_guide.md
+- developer: cards.json + 스타일 가이드로 사이트 구현 → /projects/tarot/
 
-- [ ] Researcher — 타로 시장 조사 리포트 작성 (`_shared/market_analysis/tarot_market.md`)
-- [ ] Writer — 타로 카드 78장 JSON 데이터 작성 (`_shared/tarot_cards/tarot_deck.json`)
-- [ ] Developer — 랜딩 페이지 HTML 작성 (`_shared/landing-page/landing.html`)
-- [ ] Designer — 디지털타로카드 UI 템플릿 3종 개발 (`_shared/tarot_templates/card_templates.md`)
+## ✅ 완료

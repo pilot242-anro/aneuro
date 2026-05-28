@@ -23,7 +23,10 @@
 - 작업 크다 싶으면 더 작게 쪼개서 지시
 
 ## 요약
-CEO는 last_report.md를 읽고 roadmap을 업데이트 한 후, Secretary에게 "모든 작업 완료, 사용자에게 최종 결과 보고"를 지시합니다.
+last_report.md 읽고 roadmap 업데이트, goals.md 확인, 이후 secretary에게 daily briefing 지시
 
 ## 분배
-- **📱 영숙**: last_report.md의 내용을 읽고, 작업 완료 여부를 확인한 후, 사용자에게 최종 결과를 보고합니다.
+- **📱 영숙**: last_report.md의 결과물 경로에 해당하는 파일 실제 존재 확인
+- **📱 영숙**: roadmap.md에서 진행 중 항목을 예정으로 이동
+- **📱 영숙**: goals.md 읽기
+- **📱 영숙**: daily_briefing_20260529.md 생성

@@ -1,6 +1,6 @@
 # 📋 작업 브리프
 
-**원 명령:** [자율 사이클 — 2026-05-28] 너는 CEO다. 작업 완료 후 자동 호출된다.
+**원 명령:** [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
 
 ⚠️ 반드시 이 순서로:
 1. /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽기
@@ -23,7 +23,7 @@
 - 작업 크다 싶으면 더 작게 쪼개서 지시
 
 ## 요약
-last_report.md 읽고 roadmap.md 업데이트, goals.md 및 decisions.md 확인, 적합한 에이전트에게 작업 지시
+타로 사이트 구축 — 데이터 수집부터 구현까지
 
 ## 분배
-- **📱 영숙**: /Users/kks/Desktop/kks/_company/_shared/last_report.md 파일 읽고, 그 내용에 따라 roadmap을 업데이트 해주세요. 업데이트 후 /Users/kks/Desktop/kks/_company/_shared/roadmap.md 읽기
+- **🔍 Researcher**: 타로카드 78장(메이저 22장 + 마이너 56장) 이름, 정방향/역방향 의미, 키워드를 수집해서 /Users/kks/Desktop/kks/_company/_shared/tarot_data.md에 저장
