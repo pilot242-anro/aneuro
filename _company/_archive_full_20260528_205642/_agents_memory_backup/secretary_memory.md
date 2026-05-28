@@ -1,0 +1,29 @@
+# 📱 영숙 (비서 · Personal Assistant) 개인 메모리
+
+_영숙 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._
+
+## 학습 기록
+
+- [2026-05-25] 에이전트들의 현재 작업 상태를 보고 → 산출물 sessions/2026-05-25T18-10/secretary.md
+- [2026-05-25] 개발자가 확인한 홈페이지 링크를 사용자에게 알림 → 산출물 sessions/2026-05-25T18-16/secretary.md
+- [2026-05-26] 개발자가 제공한 URL을 확인 후 사용자에게 알림 → 산출물 sessions/2026-05-26T09-41/secretary.md
+- [2026-05-26] sessions 디렉토리 구조와 보고서 접근 절차를 사용자에게 설명하고, 최근 보고서 샘플 링크를 2~3개 공유해줘 → 산출물 sessions/2026-05-26T10-27/secretary.md
+- [2026-05-26] 사용자에게 중단 안내 메시지 발송하고, 카페24 이전 일정을 통합 스케줄에 반영해주세요 → 산출물 sessions/2026-05-26T10-37/secretary.md
+- [2026-05-26] 통합 스케줄을 업데이트하고, 카페24 이전 전략 관련 일정을 반영해줘 → 산출물 sessions/2026-05-26T10-51/secretary.md
+- [2026-05-26] 통합 스케줄에 카페24 이전 일정 반영 → 산출물 sessions/2026-05-26T11-13/secretary.md
+- [2026-05-26] 현재 타로카드 프로젝트의 작업 범위와 격리 규칙을 확인한 후, 다른 프로젝트(화장품 쇼핑몰, 카페24 등)와 관련된 내용을 포함하지 않은 작업 요약을 텔레그램으로 보고하세요. → 산출물 sessions/2026-05-26T12-54/secretary.md
+- [2026-05-26] 현재 진행 중인 '타로카드 프로젝트(Cyber-Mysticism)'의 핵심 컨셉(디자인 시스템, 기술 스택)과 최근 완료된 작업(프로젝트 초기화, CSS 구조 구현)을 요약하여 브리핑하세요. → 산출물 sessions/2026-05-26T18-17/secretary.md
+- [2026-05-26] 현재 상황을 정리하고, 즉시 착수된 작업 목록을 포함한 '작업 재개 브리핑'을 준비하세요. → 산출물 sessions/2026-05-26T18-31/secretary.md
+- [2026-05-26] 현재까지 완료된 작업(CSS 변수 설정, 디자인 스펙 확정)과 현재 진행 중인 작업(코다리의 3D 로직 구현, 디자이너의 세부 가이드 작성)의 차이를 설명하고, 다음 단계로 넘어가는 과정임을 브리핑하세요. → 산출물 sessions/2026-05-26T19-04/secretary.md
+- [2026-05-26] 현재까지의 모든 의사결정 로그와 에이전트별 작업 상태를 종합하여, 현재 어떤 작업이 진행 중이며 무엇이 완료되었는지 요약 브리핑하세요. → 산출물 sessions/2026-05-26T19-53/secretary.md
+- [2026-05-26] 현재까지의 모든 의사결정 로그, Cyber-Mysticism 디자인 시스템 스펙, 개발 환경(HTML5 Canvas/JS), 그리고 프로젝트 격리 규칙을 바탕으로 '완벽한 이해 상태'임을 요약 브리핑하세요. → 산출물 sessions/2026-05-26T19-56/secretary.md
+- [2026-05-26] 현재 진행 중인 '타로카드 프로젝트'와 방금 확인된 'anero-homepage' 프로젝트를 완전히 분리하여 관리 목록에 등록하고, 각 프로젝트의 작업 맥락이 섞이지 않도록 브리핑을 준비하세요. → 산출물 sessions/2026-05-26T19-55/secretary.md
+- [2026-05-26] 현재 진행 중인 '타로카드 프로젝트'와 '화장품 쇼핑몰(카페24)'을 완전히 분리하여 기록하고, 혼선이 발생하지 않도록 프로젝트 격리 규칙을 업데이트하여 브리핑하세요. → 산출물 sessions/2026-05-26T19-55/secretary.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '🔄 진행 중' 항목을 '📋 예정'으로 복귀하고, /Users/kks/Desktop/kks/_company/_shared/goals.md를 기반으로 다음 단계를 roadmap에 추가하세요. → 산출물 sessions/2026-05-27T06-20/secretary.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '14-21번 메이저 타로 데이터 작성 시작' 항 → 산출물 sessions/2026-05-27T08-05/secretary.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/roadmap.md에서 '11-13번 메이저 타로 데이터 작성 시작' 항목이 아직 완료되지 않았으므로, '🔄 진행 → 산출물 sessions/2026-05-27T08-46/secretary.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽고, 11-13번 메이저 타로 데이터 파일이 /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_11-13.json에 존재하는지 확인한 후, roadmap.md에서 '11-13번 메이저 타로 데이터 작성 시작' 항목을 ✅ 완료로 변경하세요. → 산출물 sessions/2026-05-27T09-40/secretary.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽고, 14-21번 메이저 타로 데이터 파일이 /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_14-21.json에 존재하는지 확인한 후, roadmap.md에서 '14-21번 메이저 타로 데이터 작성 시작' 항목을 ✅ 완료로 변경하세요. → 산출물 sessions/2026-05-27T09-57/secretary.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽고, 14-21번 메이저 타로 데이터 파일이 /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_14-21.json에 존재하는지 확인한 후, roadmap.md에서 '14-21번 메이저 타로 데이터 작성 시작' 항목을 ✅ 완료로 변경하세요. → 산출물 sessions/2026-05-27T10-34/secretary.md
+- [2026-05-27] /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽고, 14-21번 메이저 타로 데이터 파일이 /Users/kks/Desktop/kks/_company/my-mobile-app/src/data/tarot_major_14-21.json에 존재하는지 확인한 후, roadmap.md에서 '14-21번 메이저 타로 데이터 작성 시작' 항목을 ✅ 완료로 변경하세요. → 산출물 sessions/2026-05-27T10-46/secretary.md
+- [2026-05-28] 모든 작업 완료, 사용자에게 최종 결과 보고 → 산출물 sessions/2026-05-28T11-13/secretary.md

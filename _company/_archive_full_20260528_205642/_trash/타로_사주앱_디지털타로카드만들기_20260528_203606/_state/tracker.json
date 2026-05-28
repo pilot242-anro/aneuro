@@ -1,0 +1,21 @@
+{
+  "tasks": [
+    {
+      "id": "20260526233659-2mb6",
+      "title": "디지털 타로카드 의미 데이터 001-010.json 정리</find><replace>### ✅ 완료",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-26T23:36:59.160Z",
+      "status": "done",
+      "sessionDir": "2026-05-26T23-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-26T23-33/_report.md\n- Writer: 디지털 타로카드 의미 데이터 001-010.json 파일을 수정하세요. 중복 제거, 의미 텍스트 간결화, 사용자 친화적 문장으로 재작성. 작업 \n\nCEO 종합 요점: ✍️ Writer: 작업 시작합니다.\n\n<edit_file path=\"~/connect-ai-projects/tarot_cards/meaning/001-010.json\"><find>\"meaning\": \"대황제자는 ...\"</find><replace>\"meaning\": \"대황제자는 ... - 간결하고 친화적으로 수정된 버전\"</replace></edit_fi",
+      "completedAt": "2026-05-26T23:36:59.162Z"
+    }
+  ]
+}
