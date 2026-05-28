@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """아느로 프로젝트 런처 서버 — localhost:5999"""
-import http.server, json, os, subprocess, urllib.parse
+import http.server, json, os, shutil, subprocess, urllib.parse
+from datetime import datetime
 from pathlib import Path
 
 PORT = 5999
@@ -51,6 +52,36 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         else:
             self.send_response(404); self.end_headers()
+
+    def do_POST(self):
+        parsed = urllib.parse.urlparse(self.path)
+        if parsed.path == '/delete':
+            length = int(self.headers.get('Content-Length', 0))
+            try:
+                body = json.loads(self.rfile.read(length).decode()) if length else {}
+            except Exception:
+                self._err('invalid json'); return
+            name = body.get('name', '').strip()
+            if not name or '/' in name or '..' in name:
+                self._err('invalid name'); return
+            folder = PROJECTS_BASE / name
+            if not folder.exists() or not folder.is_dir():
+                self._err('not found'); return
+            # 안전을 위해 _trash 폴더로 이동 (즉시 삭제 X)
+            trash = PROJECTS_BASE.parent / '_trash'
+            trash.mkdir(exist_ok=True)
+            stamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            shutil.move(str(folder), str(trash / f"{name}_{stamp}"))
+            self._ok({'ok': True, 'moved_to': str(trash / f"{name}_{stamp}")})
+        else:
+            self.send_response(404); self.end_headers()
+
+    def do_OPTIONS(self):
+        self.send_response(204)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.end_headers()
 
     def _ok(self, body):
         data = json.dumps(body).encode() if not isinstance(body, bytes) else body

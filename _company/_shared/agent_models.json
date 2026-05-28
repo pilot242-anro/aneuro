@@ -1,12 +1,12 @@
 {
-  "ceo":        "mlx-community/Llama-3.3-70B-Instruct-3bit",
-  "researcher": "mlx-community/gemma-4-26b-a4b-it-4bit",
-  "business":   "mlx-community/Qwen3-32B-4bit",
-  "developer":  "mlx-community/Qwen2.5-Coder-32B-Instruct-4bit",
-  "youtube":    "mlx-community/Qwen3-32B-4bit",
-  "designer":   "mlx-community/gemma-4-26b-a4b-it-4bit",
-  "writer":     "mlx-community/Qwen3-32B-4bit",
-  "editor":     "mlx-community/gemma-4-26b-a4b-it-4bit",
-  "secretary":  "mlx-community/Qwen3-8B-4bit",
-  "instagram":  "mlx-community/gemma-4-26b-a4b-it-4bit"
+  "ceo":        "deepseek-r1:32b",
+  "researcher": "qwen3:32b",
+  "business":   "qwen3:32b",
+  "developer":  "qwen2.5-coder:32b",
+  "youtube":    "qwen3:32b",
+  "designer":   "qwen3:32b",
+  "writer":     "qwen3:32b",
+  "editor":     "qwen3:32b",
+  "secretary":  "qwen3:32b",
+  "instagram":  "qwen3:32b"
 }
