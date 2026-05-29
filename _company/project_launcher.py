@@ -12,14 +12,14 @@ SHARED_CONFIG_FILES = ["agent_models.json", "identity.md", "_system.md"]
 
 
 def scaffold_project_company(folder):
-    """프로젝트 폴더 안에 격리된 _company 생성.
-    에이전트 팀 + 공유 설정은 글로벌 심볼릭 링크(공유),
-    roadmap·sessions·reports 등 작업 상태는 빈 상태(프로젝트별 격리)."""
-    proj_company = folder / "_company"
+    """프로젝트 폴더 자체가 companyDir — _company 중간 폴더 없음.
+    구조: projects/이름/_shared, sessions, _agents(심볼릭)
+    에이전트 팀은 글로벌 심볼릭(공유), 작업 상태는 프로젝트별 격리."""
+    proj_company = folder  # ← _company 없이 프로젝트 루트 그대로
     for sub in ("_shared", "sessions", "approvals/pending",
                 "approvals/history", "00_Raw/conversations"):
         (proj_company / sub).mkdir(parents=True, exist_ok=True)
-    # 에이전트 팀 → 글로벌 심볼릭 링크 (한 번 고치면 전 프로젝트 반영)
+    # 에이전트 팀 → 글로벌 심볼릭 링크
     agents_link = proj_company / "_agents"
     if not agents_link.exists():
         try:

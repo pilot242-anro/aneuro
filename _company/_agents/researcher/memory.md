@@ -9,3 +9,4 @@
 - [2026-05-29] 타로카드 46~60 정보 수집해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/tarot_data.md에 저장 → 산출물 sessions/2026-05-29T05-55/researcher.md
 - [2026-05-29] 타로카드 46~60 정보 수집해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/tarot_data.md에 저장 → 산출물 sessions/2026-05-29T06-07/researcher.md
 - [2026-05-29] 타로카드 46~60 정보 수집해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/tarot_data.md에 저장 → 산출물 sessions/2026-05-29T06-16/researcher.md
+- [2026-05-29] 타로카드 61-78 정보 수집해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/tarot_data.md에 저장 → 산출물 sessions/2026-05-29T06-43/researcher.md
