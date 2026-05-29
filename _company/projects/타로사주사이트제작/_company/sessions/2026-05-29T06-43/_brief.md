@@ -1,7 +1,6 @@
-# 🎯 프로젝트 목표
+# 📋 작업 브리프
 
-## 사용자 명령
-[자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
+**원 명령:** [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
 
 ⚠️ 반드시 이 순서로:
 1. /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽기
@@ -23,5 +22,8 @@
 - 같은 작업 1시간 안에 두 번 X
 - 작업 크다 싶으면 더 작게 쪼개서 지시
 
-## 목표
+## 요약
 타로카드 사이트 구축 — 데이터 수집부터 구현까지
+
+## 분배
+- **🔍 Researcher**: 타로카드 61-78 정보 수집해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/tarot_data.md에 저장

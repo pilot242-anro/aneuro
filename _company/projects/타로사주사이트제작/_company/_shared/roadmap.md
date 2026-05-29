@@ -1,9 +1,11 @@
-## 타로카드 46-60 정보 수집을 Writer에게 JSON 변환하도록 지시
+## 타로카드 사이트 구축 — 데이터 수집부터 구현까지
 
 ### 🔄 진행 중
 
 ### 📋 예정
-- researcher: 타로카드 46-60 정보 수집해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/tarot_data.md에 저장
-- writer: tarot_data.md의 내용을 JSON 형식으로 변환해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/cards.json에 저장
+- researcher: 타로카드 61-78 정보 수집 → _shared/tarot_data.md
+- writer: 수집된 의미를 JSON으로 정리 → /projects/tarot/data/cards.json
+- designer: 카드 UI 스타일 가이드 작성 → _shared/tarot_ui_guide.md
+- developer: cards.json + 스타일 가이드로 사이트 구현 → /projects/tarot/
 
 ### ✅ 완료
