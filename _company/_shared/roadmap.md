@@ -1,8 +1,8 @@
-## 타로카드 78장 데이터 수집 시작 — tarot_data.md 생성
+## 타로앱 사이트 파일 누락 확인, 개발자에게 사이트 재구축 지시
 
 ### 🔄 진행 중
 
 ### 📋 예정
-- researcher: 타로카드 78장(메이저 22장, 마이너 56장)의 이름, 정방향/역방향 의미, 키워드를 수집하여 /Users/kks/Desktop/kks/_company/_shared/tarot_data.md에 마크다운 형식으로 저장하라.
+- developer: 타로 점 사이트를 /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/site/ 에 HTML/CSS/JS로 완전히 새로 구현. cards.json 및 UI 가이드 사용.
 
 ### ✅ 완료
