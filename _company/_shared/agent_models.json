@@ -1,6 +1,6 @@
 {
   "ceo": "llama3.3:70b",
-  "researcher": "qwen3:32b",
+  "researcher": "llama3.3:70b",
   "business": "qwen3:32b",
   "developer": "qwen2.5-coder:32b",
   "youtube": "qwen3:32b",

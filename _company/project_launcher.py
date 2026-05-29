@@ -6,13 +6,60 @@ from pathlib import Path
 
 PORT = 5999
 PROJECTS_BASE = Path.home() / "Desktop/kks/_company/projects"
+GLOBAL_COMPANY = Path.home() / "Desktop/kks/_company"
+# 프로젝트 간 공유 (글로벌로 심볼릭 링크) — 나머지 작업 상태는 프로젝트별 격리
+SHARED_CONFIG_FILES = ["agent_models.json", "identity.md", "_system.md"]
+
+
+def scaffold_project_company(folder):
+    """프로젝트 폴더 안에 격리된 _company 생성.
+    에이전트 팀 + 공유 설정은 글로벌 심볼릭 링크(공유),
+    roadmap·sessions·reports 등 작업 상태는 빈 상태(프로젝트별 격리)."""
+    proj_company = folder / "_company"
+    for sub in ("_shared", "sessions", "approvals/pending",
+                "approvals/history", "00_Raw/conversations"):
+        (proj_company / sub).mkdir(parents=True, exist_ok=True)
+    # 에이전트 팀 → 글로벌 심볼릭 링크 (한 번 고치면 전 프로젝트 반영)
+    agents_link = proj_company / "_agents"
+    if not agents_link.exists():
+        try:
+            agents_link.symlink_to(GLOBAL_COMPANY / "_agents")
+        except OSError:
+            pass
+    # 공유 설정 파일 → 심볼릭 링크
+    for fname in SHARED_CONFIG_FILES:
+        src = GLOBAL_COMPANY / "_shared" / fname
+        dst = proj_company / "_shared" / fname
+        if src.exists() and not dst.exists():
+            try:
+                dst.symlink_to(src)
+            except OSError:
+                pass
+    return proj_company
+
+
+def write_workspace_settings(folder, company_dir):
+    """프로젝트 폴더에 .vscode/settings.json — connectAiLab.companyDir 지정.
+    이게 있어야 확장이 글로벌이 아닌 이 프로젝트 전용 _company를 사용한다."""
+    vscode_dir = folder / ".vscode"
+    vscode_dir.mkdir(exist_ok=True)
+    sp = vscode_dir / "settings.json"
+    settings = {}
+    if sp.exists():
+        try:
+            settings = json.loads(sp.read_text(encoding="utf-8"))
+        except Exception:
+            settings = {}
+    settings["connectAiLab.companyDir"] = str(company_dir)
+    sp.write_text(json.dumps(settings, ensure_ascii=False, indent=2), encoding="utf-8")
 
 class Handler(http.server.BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urllib.parse.urlparse(self.path)
         params = urllib.parse.parse_qs(parsed.query)
 
-        self.send_header('Access-Control-Allow-Origin', '*')
+        # 주의: send_header는 send_response 이후에만 호출해야 함.
+        # CORS 헤더는 _ok/_err 안에서 처리한다 (여기서 부르면 응답이 깨짐).
 
         if parsed.path == '/ping':
             self._ok('pong')
@@ -26,8 +73,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
             brief = folder / "BRIEF.md"
             if not brief.exists():
                 brief.write_text(f"# {name}\n\n## 목표\n\n## 주요 작업\n\n## 메모\n")
+            # 프로젝트별 격리된 _company 스캐폴딩 + companyDir 설정 주입
+            proj_company = scaffold_project_company(folder)
+            write_workspace_settings(folder, proj_company)
             subprocess.Popen(['open', '-a', 'Antigravity IDE', str(folder)])
-            self._ok({'ok': True, 'path': str(folder)})
+            self._ok({'ok': True, 'path': str(folder), 'company': str(proj_company)})
 
         elif parsed.path == '/list':
             # 실제 폴더 목록 반환 — localStorage와 동기화용
