@@ -1,3 +1,4 @@
 
 - [2026-05-29] 타로 점 사이트를 /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/site/ 에 HTML/CSS/JS로 구현하세요. 데이터: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/data/cards.json (카드 78장, id/name/upright/reversed/keywords). 디자인: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_ui_guide.md 참고. 배경 #0A0A0F, 악센
 - [2026-05-29] /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/site/ 디렉토리에 타로 점 사이트를 HTML/CSS/JS로 구현하세요. 데이터: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/data/cards.json (카드 78장). 디자인: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_ui_guide.md 참고. 배경 #0A0A0F, 강조 #8B5CF6, 폰트 Inter/Playfair Dis
+- [2026-05-29] 타로 점 사이트를 /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/site/ 에 HTML/CSS/JS로 완전히 새로 구현하세요. 데이터: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/data/cards.json (78장, id/name/upright/reversed/keywords). 디자인: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_ui_guide.md 참고. 배경 #0A0A0F
