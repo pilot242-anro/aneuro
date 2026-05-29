@@ -1,3 +1,4 @@
 
 - [2026-05-29] tarot_data.md의 내용을 JSON 형식으로 변환해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/projects/타로사주사이트제작/_company/_shared/cards.json에 저장 → 산출물 sessions/2026-05-29T06-27/writer.md
 - [2026-05-29] tarot_data.md의 내용을 JSON 형식으로 변환해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/cards.json에 저장 → 산출물 sessions/2026-05-29T06-30/writer.md
+- [2026-05-29] /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_data.md 파일을 읽고, 타로카드 78장의 이름, 정방향/역방향 의미, 키워드를 JSON 배열로 변환하여 /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/data/cards.json 파일에 저장 (형식: [{ id, name, upright, reversed, keywords }]) → 산출물 sessions/2026-05-29T09-40/writer.md

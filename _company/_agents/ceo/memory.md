@@ -13,3 +13,5 @@
 - [2026-05-29] 자 그만, 내가 타로카드 78장에 대한 정보를 대신 넣었어. 그러니까 그 다음 단계부터 진행해 → 보고서 sessions/2026-05-29T06-27/_report.md
 - [2026-05-29] [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.  ⚠️ 반드시 이 순서로: 1. /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽기    - 결과물 경로 있으면 → read_file로 실제 파일 존재 확인    - 파일 존재 확인됨 → roadmap에서 해당 항목 ✅ 완료로 이동    - 파일 없거나 실패 → 🔄 진행 중에서 📋 예정으로 복귀 2. /Users/kks/Desktop/kks/_company/_shared/roadmap.md 읽
 - [2026-05-29] [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.  ⚠️ 반드시 이 순서로: 1. /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽기    - 결과물 경로 있으면 → read_file로 실제 파일 존재 확인    - 파일 존재 확인됨 → roadmap에서 해당 항목 ✅ 완료로 이동    - 파일 없거나 실패 → 🔄 진행 중에서 📋 예정으로 복귀 2. /Users/kks/Desktop/kks/_company/_shared/roadmap.md 읽
+- [2026-05-29] [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.  ⚠️ 반드시 이 순서로: 1. /Users/kks/Desktop/kks/_company/projects/타로제작/_shared/last_report.md 읽기    - 결과물 경로 있으면 → read_file로 실제 파일 존재 확인    - 파일 존재 확인됨 → roadmap에서 해당 항목 ✅ 완료로 이동    - 파일 없거나 실패 → 🔄 진행 중에서 📋 예정으로 복귀 2. /Users/kks/Desktop/kks/_company/projec
+- [2026-05-29] 타로앱 만들어줘 → 보고서 sessions/2026-05-29T09-40/_report.md
