@@ -1,8 +1,8 @@
-## 타로 앱 UI 설계 단계
+## 모든 작업이 완료되어 사용자에게 최종 결과 보고
 
 ### 🔄 진행 중
 
 ### 📋 예정
-- designer: 탈로앱 UI/UX 스타일 가이드 작성: 카드 선택 UI, 결과 화면, 색상/타이포그래피 정의, /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_ui_guide.md에 저장
+- secretary: 타로앱 UI 설계 단계의 모든 작업이 완료되었음을 사용자에게 보고하고, 최종 결과물인 /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_ui_guide.md를 안내한다.
 
 ### ✅ 완료
