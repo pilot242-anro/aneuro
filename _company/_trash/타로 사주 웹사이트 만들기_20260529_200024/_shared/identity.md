@@ -1,1 +1,0 @@
-/Users/kks/Desktop/kks/_company/_shared/identity.md

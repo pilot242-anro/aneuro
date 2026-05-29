@@ -1,1 +1,12 @@
-/Users/kks/Desktop/kks/_company/_shared/agent_models.json
+{
+  "ceo": "deepseek-v4-pro",
+  "researcher": "deepseek-v4-pro",
+  "business": "deepseek-v4-pro",
+  "developer": "deepseek-v4-pro",
+  "writer": "deepseek-v4-pro",
+  "secretary": "deepseek-v4-flash",
+  "editor": "deepseek-v4-flash",
+  "youtube": "deepseek-v4-flash",
+  "designer": "deepseek-v4-flash",
+  "instagram": "deepseek-v4-flash"
+}

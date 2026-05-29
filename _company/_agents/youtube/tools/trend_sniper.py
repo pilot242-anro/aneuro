@@ -55,8 +55,7 @@ def main():
     if not target_keywords:
         print("⚠️  TARGET_KEYWORDS가 비어있어요. 분석할 키워드를 1개 이상 추가하세요.")
         sys.exit(1)
-    # 기본값: MLX 서버 (포트 8080, OpenAI 호환). v2.89.158부터 MLX 우선.
-    ollama_url = (_shared(cfg, acct, "OLLAMA_URL", "http://127.0.0.1:8080/v1") or "http://127.0.0.1:8080/v1").rstrip("/")
+    ollama_url = (_shared(cfg, acct, "OLLAMA_URL", "http://127.0.0.1:11434") or "http://127.0.0.1:11434").rstrip("/")
     model = _shared(cfg, acct, "MODEL", "") or ""
     pick = min(2, len(target_keywords))
     chosen = random.sample(target_keywords, pick)
@@ -109,11 +108,9 @@ def main():
 3. 🎬 파괴적 영상 기획안 — 썸네일 카피, 제목 3개, 후킹 오프닝(첫 5초)
 """
 
-    # v2.89.158 — MLX 서버(8080) + LM Studio(1234) + Ollama(11434) 모두 지원.
-    is_openai_compat = ('1234' in ollama_url) or ('8080' in ollama_url) or ('/v1' in ollama_url)
-    is_lm_studio = is_openai_compat  # 호환성: 기존 변수명 유지
-    engine_name = 'MLX' if '8080' in ollama_url else ('LM Studio' if '1234' in ollama_url else ('Ollama' if not is_openai_compat else 'OpenAI 호환'))
-    print(f"🧠 [LLM 분석 중... 엔진: {engine_name}]")
+    # v2.89.70 — LM Studio (OpenAI 호환 API) + Ollama 둘 다 지원. URL/포트로 자동 감지.
+    is_lm_studio = ('1234' in ollama_url) or ('/v1' in ollama_url)
+    print(f"🧠 [LLM 분석 중... 엔진: {'LM Studio' if is_lm_studio else 'Ollama'}]")
 
     # 모델 자동 선택 — 엔진별로 다른 endpoint
     if not model:
@@ -138,8 +135,7 @@ def main():
             print(f"   자동 선택 모델: {model}")
         except Exception as e:
             print(f"❌ 로컬 LLM 연결 실패 ({ollama_url}): {e}")
-            print(f"   엔진 실행 확인: MLX (8080) / LM Studio (1234) / Ollama (11434) 중 하나가 켜져 있어야 함")
-            print(f"   기본 권장: MLX 서버 → launchctl load ~/Library/LaunchAgents/com.aneuro.mlxserver.plist")
+            print(f"   엔진 실행 확인: {'LM Studio (포트 1234)' if is_lm_studio else 'Ollama (포트 11434)'}")
             sys.exit(1)
 
     # 추론 호출 — 엔진별 다른 endpoint·payload 형식

@@ -137,7 +137,7 @@ TEMPLATES = {
         "label": "📱 Expo (React Native · iOS/Android/Web 동시)",
         "needs": ["node", "npm"],
         "scaffold": lambda name, parent: [
-            ("scaffold", f"npx create-expo-app@latest {name} --template blank-typescript --yes", parent, True),
+            ("scaffold", f"npx create-expo-app@latest {name} --template blank-typescript", parent, True),
         ],
         "post": "Expo Go 앱(iOS/Android) 깔고 'npm start' 후 QR 스캔",
         "dev_cmd": "npm start",

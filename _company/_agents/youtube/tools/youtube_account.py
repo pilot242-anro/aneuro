@@ -34,8 +34,8 @@ def main():
         print(f"  텔레그램          : 연결됨 (chat {tg_chat})")
     else:
         print(f"  텔레그램          : 미설정 (보고 알림 비활성)")
-    print(f"  LLM 서버 URL      : {cfg.get('OLLAMA_URL') or 'http://127.0.0.1:8080/v1'}")
-    print(f"  분석 모델          : {cfg.get('MODEL') or 'mlx-community/Qwen3-32B-4bit (기본)'}")
+    print(f"  Ollama URL        : {cfg.get('OLLAMA_URL') or 'http://127.0.0.1:11434'}")
+    print(f"  분석 모델          : {cfg.get('MODEL') or '(자동 선택)'}")
     if not api:
         print("\n⚠️  API 키가 비어있어요. 다른 도구들이 동작하지 않습니다.")
         print("   발급: https://console.cloud.google.com/ → YouTube Data API v3")
