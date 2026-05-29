@@ -1,7 +1,6 @@
-# 🎯 프로젝트 목표
+# 📋 작업 브리프
 
-## 사용자 명령
-[자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
+**원 명령:** [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
 
 ⚠️ 반드시 이 순서로:
 1. /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/last_report.md 읽기
@@ -23,5 +22,8 @@
 - 같은 작업 1시간 안에 두 번 X
 - 작업 크다 싶으면 더 작게 쪼개서 지시
 
-## 목표
+## 요약
 타로 카드 78장 검증 완료, 전체 프로젝트 최종 보고.
+
+## 분배
+- **📱 영숙**: 타로 앱 만들기 프로젝트의 모든 작업이 완료되었습니다. 타로카드 78장 데이터(cards.json) 검증 결과 모든 카드가 올바르게 포함되어 있습니다. 사용자에게 최종 결과를 보고하고, 텔레그램 알림을 보내세요. 결과물 목록: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/data/cards.json, /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_ui_guide.md, /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/site/

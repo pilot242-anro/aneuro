@@ -1,7 +1,6 @@
-# 🎯 프로젝트 목표
+# 📋 작업 브리프
 
-## 사용자 명령
-[자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
+**원 명령:** [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
 
 ⚠️ 반드시 이 순서로:
 1. /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/last_report.md 읽기
@@ -23,5 +22,8 @@
 - 같은 작업 1시간 안에 두 번 X
 - 작업 크다 싶으면 더 작게 쪼개서 지시
 
-## 목표
-타로 카드 78장 검증 완료, 전체 프로젝트 최종 보고.
+## 요약
+사이트 구현이 완료되지 않아 재지시합니다.
+
+## 분배
+- **💻 코다리**: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/site/ 디렉토리에 타로 점 사이트를 HTML/CSS/JS로 구현하세요. 데이터: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/data/cards.json (카드 78장). 디자인: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_ui_guide.md 참고. 배경 #0A0A0F, 강조 #8B5CF6, 폰트 Inter/Playfair Display. 셔플, 카드 선택, 결과 표시 기능 포함. index.html, style.css, script.js 파일 생성.

@@ -1,7 +1,6 @@
-# 🎯 프로젝트 목표
+# 📋 작업 브리프
 
-## 사용자 명령
-[자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
+**원 명령:** [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
 
 ⚠️ 반드시 이 순서로:
 1. /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/last_report.md 읽기
@@ -23,5 +22,8 @@
 - 같은 작업 1시간 안에 두 번 X
 - 작업 크다 싶으면 더 작게 쪼개서 지시
 
-## 목표
-타로 카드 78장 검증 완료, 전체 프로젝트 최종 보고.
+## 요약
+타로앱 사이트 구현 — 데이터 및 디자인 완료, developer가 구현 시작
+
+## 분배
+- **💻 코다리**: 타로 점 사이트를 /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/site/ 에 HTML/CSS/JS로 구현하세요. 데이터: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/data/cards.json (카드 78장, id/name/upright/reversed/keywords). 디자인: /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/_shared/tarot_ui_guide.md 참고. 배경 #0A0A0F, 악센트 #8B5CF6, 버튼 호버 linear-gradient(135deg, #8B5CF6, #EC4899). 폰트: 제목 Playfair Display, 본문 Inter (Google Fonts CDN). 기능: 클릭 시 랜덤 카드 1장 표시 (정방향/역방향 랜덤 선택), 카드 이름·의미·키워드 디스플레이. 간결한 싱글 페이지로 구현. 모든 파일은 /Users/kks/Desktop/kks/_company/projects/타로앱 만들기/site/ 안에 생성 (index.html, style.css, script.js).
