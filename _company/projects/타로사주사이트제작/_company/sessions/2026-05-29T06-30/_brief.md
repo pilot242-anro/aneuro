@@ -1,7 +1,6 @@
-# 🎯 프로젝트 목표
+# 📋 작업 브리프
 
-## 사용자 명령
-[자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
+**원 명령:** [자율 사이클 — 2026-05-29] 너는 CEO다. 작업 완료 후 자동 호출된다.
 
 ⚠️ 반드시 이 순서로:
 1. /Users/kks/Desktop/kks/_company/_shared/last_report.md 읽기
@@ -23,5 +22,8 @@
 - 같은 작업 1시간 안에 두 번 X
 - 작업 크다 싶으면 더 작게 쪼개서 지시
 
-## 목표
+## 요약
 타로카드 46-60 정보 수집을 Writer에게 JSON 변환하도록 지시
+
+## 분배
+- **✍️ Writer**: tarot_data.md의 내용을 JSON 형식으로 변환해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/_shared/cards.json에 저장

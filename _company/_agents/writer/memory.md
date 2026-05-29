@@ -1,0 +1,2 @@
+
+- [2026-05-29] tarot_data.md의 내용을 JSON 형식으로 변환해서 /Users/kks/Desktop/kks/_company/projects/타로사주사이트제작/_company/projects/타로사주사이트제작/_company/_shared/cards.json에 저장 → 산출물 sessions/2026-05-29T06-27/writer.md
